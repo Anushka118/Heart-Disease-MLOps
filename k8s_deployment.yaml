@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: heart-disease-api
+  labels:
+    app: heart-disease-model
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: heart-disease-model
+  template:
+    metadata:
+      labels:
+        app: heart-disease-model
+    spec:
+      containers:
+      - name: api-container
+        image: heart-disease-api:latest
+        imagePullPolicy: Never  # Use local image
+        ports:
+        - containerPort: 5000
+        resources:
+          limits:
+            memory: "512Mi"
+            cpu: "500m"

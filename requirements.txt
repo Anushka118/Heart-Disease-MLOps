@@ -6,3 +6,4 @@ seaborn
 mlflow
 joblib
 flask
+prometheus-flask-exporter
