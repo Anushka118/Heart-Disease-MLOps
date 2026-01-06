@@ -30,8 +30,8 @@ This project implements an end-to-end Machine Learning Operations (MLOps) pipeli
 ### Local Development Setup
 1.  **Clone the repository**:
     ```bash
-    git clone <repo-url>
-    cd <repo-name>
+    git clone https://github.com/Anushka118/Heart-Disease-MLOps.git
+    cd Heart-Disease-MLOps
     ```
 
 2.  **Install dependencies**:
