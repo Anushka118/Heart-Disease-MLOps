@@ -5,8 +5,8 @@ import pytest
 from sklearn.pipeline import Pipeline
 
 # Define paths
-MODEL_PATH = 'heart_disease_pipeline.pkl'
-DATA_PATH = 'heart_disease_cleaned.csv'
+MODEL_PATH = '/Users/aalekhmacbook/Documents/BITS Pilani WILP/MLOPs/heart_disease_pipeline.pkl'
+DATA_PATH = '/Users/aalekhmacbook/Documents/BITS Pilani WILP/MLOPs/heart_disease_cleaned.csv'
 
 def test_files_exist():
     """Test 1: Check if model and data files exist"""

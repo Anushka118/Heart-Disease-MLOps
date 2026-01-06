@@ -1,0 +1,10 @@
+artifact_location: file:///Users/aalekhmacbook/Documents/BITS Pilani WILP/mlops_assignment/mlruns/793080823762442134/models/m-f226220009fe401693fea425fded16a4/artifacts
+creation_timestamp: 1767712841934
+experiment_id: '793080823762442134'
+last_updated_timestamp: 1767712844497
+model_id: m-f226220009fe401693fea425fded16a4
+model_type: null
+name: model
+source_run_id: 8e05b3f20b01412ea5c935cd57a7592f
+status: 2
+status_message: null

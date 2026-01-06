@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/aalekhmacbook/Documents/BITS Pilani WILP/mlops_assignment/mlruns/793080823762442134/8e05b3f20b01412ea5c935cd57a7592f/artifacts
+end_time: 1767712844571
+entry_point_name: ''
+experiment_id: '793080823762442134'
+lifecycle_stage: active
+run_id: 8e05b3f20b01412ea5c935cd57a7592f
+run_name: Logistic_Regression
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767712841917
+status: 3
+tags: []
+user_id: aalekhmacbook

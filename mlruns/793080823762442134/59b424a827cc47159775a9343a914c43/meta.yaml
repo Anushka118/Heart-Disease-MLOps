@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/aalekhmacbook/Documents/BITS Pilani WILP/mlops_assignment/mlruns/793080823762442134/59b424a827cc47159775a9343a914c43/artifacts
+end_time: 1767712846809
+entry_point_name: ''
+experiment_id: '793080823762442134'
+lifecycle_stage: active
+run_id: 59b424a827cc47159775a9343a914c43
+run_name: Random_Forest
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767712844575
+status: 3
+tags: []
+user_id: aalekhmacbook
