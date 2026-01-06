@@ -26,13 +26,14 @@ def test_prediction_shape():
     # Load the actual dataset to get the correct column structure
     df = pd.read_csv(DATA_PATH)
     
-    # Drop the target column to simulate input data
-    # (Task 1 saved the target as 'target')
+    # Prepare the sample input (Features only)
     if 'target' in df.columns:
-        X_sample = df.drop(columns=['target']).iloc[[0]] # Get the first row
+        # If column is named 'target', drop it and take the first row
+        X_sample = df.drop(columns=['target']).iloc[[0]]
     else:
-        # Fallback if target column has a different name
-        X_sample = df.iloc[[0, :-1]] 
+        # Fallback: Assume the last column is the target and drop it
+        # Fixed syntax: use iloc[rows, cols]
+        X_sample = df.iloc[[0], :-1]
 
     # Predict
     prediction = model.predict(X_sample)
