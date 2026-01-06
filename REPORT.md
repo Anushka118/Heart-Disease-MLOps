@@ -147,6 +147,5 @@ The workflow is defined in `.github/workflows/mlops_pipeline.yml`.
 
 ## 7. Links and References
 
-*   **Code Repository**: [GitHub Link Placeholder]
+*   **Code Repository**: https://github.com/Anushka118/Heart-Disease-MLOps
 *   **Video Demo**: [Video Link Placeholder]
-*   **Deployed API**: `http://<external-ip>/predict`
